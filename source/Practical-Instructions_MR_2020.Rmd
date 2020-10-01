@@ -24,7 +24,7 @@ rm(list=ls())
 ## Load data ##
 
 ```{r}
-load(url("https://github.com/molepi/Molecular-Data-Science/blob/master/integrative_omics/data.RData?raw=true"))
+load('./data/data.RData')
 ```
 
 * Use __ls()__, __str__ and __summary__ to explore the data.
